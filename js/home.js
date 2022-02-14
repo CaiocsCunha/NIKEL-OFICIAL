@@ -132,7 +132,7 @@ function getCashOut(){
                     <div class="container p-0">
                         <div class="row">   
                             <div class="col-12  col-md-8">
-                                <p>R$${cashOut[index].description}</p>
+                                <p>${cashOut[index].description}</p>
                             </div>
                             <div class="col-12 col-md-3 d-flex justify-content-end">
                                 R$${cashOut[index].date}
