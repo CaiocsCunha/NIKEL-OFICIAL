@@ -98,7 +98,7 @@ function getCashIn(){
                                 <p>${cashIn[index].description}</p>
                             </div>
                             <div class="col-12 col-md-3 d-flex justify-content-end">
-                                 R$${cashIn[index].date}
+                                 ${cashIn[index].date}
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ function getCashOut(){
                                 <p>${cashOut[index].description}</p>
                             </div>
                             <div class="col-12 col-md-3 d-flex justify-content-end">
-                                R$${cashOut[index].date}
+                                ${cashOut[index].date}
                             </div>
                         </div>
                     </div>
